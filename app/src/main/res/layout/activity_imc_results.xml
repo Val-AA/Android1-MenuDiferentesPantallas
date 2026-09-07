@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/IMC_results"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".IMC_results">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados de IMC"
+        android:textSize="26sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvResultadoIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="IMC: "
+        />
+
+
+    <TextView
+        android:id="@+id/tvClasificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Clasificación: "
+        />
+
+
+
+
+    <Button
+        android:id="@+id/btnReg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
