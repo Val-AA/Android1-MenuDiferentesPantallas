@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val btnArea = findViewById<Button>(R.id.btnArea)
         val btnRecomendaciones = findViewById<Button>(R.id.btnRecomendaciones)
         val btnIMC = findViewById<Button>(R.id.btnIMC)
+        val btnFormulario = findViewById<Button>(R.id.btnFormulario)
 
         btnArea.setOnClickListener {
             val intent = Intent(this, AreaCalculo::class.java)
@@ -29,6 +30,12 @@ class MainActivity : AppCompatActivity() {
 
         btnIMC.setOnClickListener {
             val intent = Intent(this, IMC_calculator::class.java)
+            startActivity(intent)
+        }
+        btnFormulario.setOnClickListener {
+            val intent =
+                Intent(this, Activity::class.java)
+
             startActivity(intent)
         }
     }
